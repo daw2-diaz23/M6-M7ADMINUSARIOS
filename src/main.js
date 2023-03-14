@@ -6,9 +6,9 @@ import { Registre } from './componentes/Registre'
 
 
 
-document.querySelector('header').innerHTML = header.template
-header.script()
-Registre.script()
+    document.querySelector('header').innerHTML = header.template
+    header.script()
+    Registre.script()
 
 
 

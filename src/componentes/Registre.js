@@ -2,7 +2,7 @@ import multiavatar from '@multiavatar/multiavatar/esm'
 export const Registre = {
     template: `
         <form id="formulario-registro" class="p-5">
-            <div class="mb-3">
+            <div class="mb-3 ">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre" @input="generateAvatar" required>
             </div>
