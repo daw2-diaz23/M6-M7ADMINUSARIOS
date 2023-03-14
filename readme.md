@@ -19,3 +19,5 @@ Utilizaremos un procedimiento basado en agile y skrull
 2. Dividiremos las historias en tareas
 3. Agruparemos las historias en sprints 
 
+
+## Recursos
