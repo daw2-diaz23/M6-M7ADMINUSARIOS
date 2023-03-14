@@ -21,3 +21,14 @@ Utilizaremos un procedimiento basado en agile y skrull
 
 
 ## Recursos
+
+( )
+
+`npm i boostrap`
+
+```
+console.log('hola')
+
+```
+
+
