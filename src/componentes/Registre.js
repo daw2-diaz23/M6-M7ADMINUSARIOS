@@ -4,7 +4,7 @@ export const Registre = {
         <form id="formulario-registro" class="p-5">
             <div class="mb-3 ">
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" @input="generateAvatar" required>
+                <input type="text" class="form-control" id="nombre" @input="generateAvatar" required pattern="[A-Z_]{1,10}">
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -12,7 +12,7 @@ export const Registre = {
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="password" required>
+                <input type="password" class="form-control" id="password" required pattern="[A-Z]{1,}[^A-Z]{1,}[0-9]{1,}">
             </div>
             <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
@@ -29,7 +29,9 @@ export const Registre = {
             let svgCode = multiavatar(event.target.value)
             document.querySelector('#avatar').innerHTML = svgCode;
           })
-      },
-     
-  };
 
+
+    
+      },
+
+}

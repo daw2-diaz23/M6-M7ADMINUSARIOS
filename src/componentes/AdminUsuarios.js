@@ -6,8 +6,8 @@ export const users = [
         pass: 'password1' 
     },
     { id: uuidv4(), 
-        nick: 'Nico', 
-        email: 'Nico@example.com', 
+        nick: 'Pablo', 
+        email: 'Pablo@example.com', 
         pass: 'password2' 
     },
     { id: uuidv4(), 
