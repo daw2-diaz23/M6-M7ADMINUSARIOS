@@ -19,7 +19,7 @@
             <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
         <div id="avatar" class="col-2">
-        hola
+        
         </div>
 
 
