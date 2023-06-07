@@ -29,11 +29,11 @@
       <form id="formulario-editar">
         <div class="mb-3">
           <label for="editar-nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="editar-nombre" required pattern="[A-Z_]{1,10}>
+          <input type="text" class="form-control" id="editar-nombre" required pattern="[A-Z_]{1,10}">
         </div>
         <div class="mb-3">
           <label for="editar-email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="editar-email" required pattern="[A-Z]{1,}[^A-Z]{1,}[0-9]{1,}">
+          <input type="email" class="form-control" id="editar-email" required>
         </div>
       </form>
       <div id="editar-avatar" class="col-2"></div>
