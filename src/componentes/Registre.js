@@ -8,11 +8,11 @@ export const Registre = {
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control" id="email" required pattern="^[A-Za-z0-9._%+-]+@gmail\.com$">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="password" required pattern="[A-Z]{1,}[^A-Z]{1,}[0-9]{1,}">
+                <input type="password" class="form-control" id="password" required maxlength="16" minlength="6" pattern="[A-Z]{1,}[^A-Z]{1,}[0-9]{1,}">
             </div>
             <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
